@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1220" />
+    <meta
+      name="description"
+      content="Portfolio of Krunal Sangani — Python SQL Developer focused on data pipelines, SQL Server troubleshooting, AWS S3, and job automation."
+    />
+    <title>Krunal Sangani | Python SQL Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Krunal Sangani home"
+          ><span class="brand-mark">KS<span>.</span></span
+          ><span class="brand-label"
+            >PORTFOLIO<span class="brand-slash"> / </span>2026</span
+          ></a
+        >
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a><a href="#skills">Skills</a
+          ><a href="#projects">Projects</a><a href="#experience">Experience</a
+          ><a href="#education">Education</a>
+          <a class="nav-contact" href="#contact"
+            >Let’s talk <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span> OPEN TO TECHNICAL OPPORTUNITIES
+          </div>
+          <p class="hero-kicker">
+            PYTHON <span>×</span> SQL <span>×</span> DATA OPERATIONS
+          </p>
+          <h1>
+            Turning data<br />into
+            <span class="gradient-text">reliable workflows.</span>
+          </h1>
+          <p class="hero-description">
+            I’m <strong>Krunal Sangani</strong>, a Python SQL Developer focused
+            on practical data pipelines, SQL Server operations, troubleshooting,
+            and scheduled job automation.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >Explore my work <span>↘</span></a
+            >
+            <a
+              class="button button-secondary"
+              href="assets/Krunal_Sangani_Python_SQL_Developer_Resume.pdf"
+              download
+              >Download resume <span>↓</span></a
+            >
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">BASED IN</span
+              ><strong>Ahmedabad, Gujarat, India</strong>
+            </div>
+            <div>
+              <span class="meta-label">FOCUS</span
+              ><strong>Data Engineering · SQL Operations </strong>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hero-visual"
+          aria-label="Decorative data pipeline illustration"
+        >
+          <div class="visual-topline">
+            <span>PIPELINE / OVERVIEW</span
+            ><span class="live-indicator">● SYSTEM THINKING</span>
+          </div>
+          <div class="pipeline-board">
+            <div class="pipeline-node node-source">
+              <span class="node-icon">▤</span>
+              <div>
+                <small>01 / SOURCE</small><strong>SQL Server</strong
+                ><em>Structured data</em>
+              </div>
+              <span class="node-state">●</span>
+            </div>
+            <div class="pipeline-connector">
+              <span></span><small>EXTRACT</small><span></span>
+            </div>
+            <div class="pipeline-node node-process">
+              <span class="node-icon">⌘</span>
+              <div>
+                <small>02 / PROCESS</small><strong>Python</strong
+                ><em>Filter & transform</em>
+              </div>
+              <span class="node-state">●</span>
+            </div>
+            <div class="pipeline-connector">
+              <span></span><small>LOAD</small><span></span>
+            </div>
+            <div class="pipeline-node node-storage">
+              <span class="node-icon">▱</span>
+              <div>
+                <small>03 / DESTINATION</small><strong>Amazon S3</strong
+                ><em>Cloud storage</em>
+              </div>
+              <span class="node-state">●</span>
+            </div>
+            <div class="visual-footer">
+              <span class="footer-chip">PYTHON</span
+              ><span class="footer-chip">SQL</span
+              ><span class="footer-chip">AWS</span
+              ><span class="footer-caption">DATA FLOW · CONCEPTUAL</span>
+            </div>
+          </div>
+          <div class="floating-stat stat-top">
+            <span class="stat-symbol">↗</span>
+            <div>
+              <strong>Automation</strong><small>Repeatable workflows</small>
+            </div>
+          </div>
+          <div class="floating-stat stat-bottom">
+            <span class="stat-symbol stat-green">⌁</span>
+            <div>
+              <strong>SQL Reliability</strong
+              ><small>Monitor · Diagnose · Improve</small>
+            </div>
+          </div>
+          <div class="grid-glow"></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Core technologies">
+        <div class="ticker-track">
+          <span>PYTHON</span><i>✳</i><span>SQL SERVER</span><i>✳</i
+          ><span>AMAZON S3</span><i>✳</i><span>JENKINS</span><i>✳</i
+          ><span>GITHUB</span><i>✳</i><span>PYTHON</span><i>✳</i
+          ><span>SQL SERVER</span><i>✳</i><span>AMAZON S3</span><i>✳</i
+          ><span>JENKINS</span><i>✳</i><span>GITHUB</span><i>✳</i>
+          <span>TKINTER</span><i>✳</i>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <span class="section-index">01 / ABOUT</span>
+          <h2>
+            Practical engineering.<br /><span class="muted-heading"
+              >Clear, dependable outcomes.</span
+            >
+          </h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead">
+            I work across Python scripting and SQL Server support to move data
+            reliably and keep scheduled processes running smoothly.
+          </p>
+          <div class="about-detail">
+            <p>
+              My experience includes building a SQL-to-S3 data flow, writing
+              Python scripts to filter and process data, monitoring SQL jobs,
+              investigating LSN-related issues and blocking, and improving job
+              performance.
+            </p>
+            <p>
+              I also use Jenkins to schedule and run scripts, and Git/GitHub to
+              manage code. Additionally, I work on existing Python Tkinter
+              desktop applications, analyzing source code, understanding
+              application workflows, and implementing required modifications. My
+              approach is hands-on: understand the issue, investigate the cause,
+              and make the workflow more reliable.
+            </p>
+            <div class="note-line">
+              <span>↳</span> Jenkins job automation experience — not end-to-end
+              CI/CD pipeline engineering.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-index">02 / TOOLKIT</span>
+            <h2>Tools I work with<span class="accent-dot">.</span></h2>
+            <p class="heading-description">
+              A practical toolkit for data handling, database support, and
+              automation.
+            </p>
+          </div>
+          <div class="skill-grid">
+            <article class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon purple">Py</span
+                ><span class="card-number">01</span>
+              </div>
+              <h3>Python & Data</h3>
+              <p>Scripts, data extraction, filtering, and transformation.</p>
+              <div class="tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Matplotlib</span>
+                <span>Seaborn</span>
+                <span>Tkinter</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon blue">SQL</span
+                ><span class="card-number">02</span>
+              </div>
+              <h3>Databases</h3>
+              <p>
+                Operational troubleshooting and query/job performance
+                improvement.
+              </p>
+              <div class="tags">
+                <span>SQL Server</span><span>MySQL</span><span>SQLite</span
+                ><span>SSMS</span><span>SQL Agent</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon orange">AWS</span
+                ><span class="card-number">03</span>
+              </div>
+              <h3>Cloud & Automation</h3>
+              <p>Cloud object storage and scheduled script execution.</p>
+              <div class="tags">
+                <span>Amazon S3</span><span>Jenkins</span><span>Cron jobs</span>
+              </div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon green">Git</span
+                ><span class="card-number">04</span>
+              </div>
+              <h3>Development Tools</h3>
+              <p>Version control, API testing, and day-to-day development.</p>
+              <div class="tags">
+                <span>Git</span><span>GitHub</span><span>VS Code</span
+                ><span>Postman</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="projects">
+        <div class="section-heading">
+          <span class="section-index">03 / SELECTED WORK</span>
+          <h2>
+            Projects & <span class="muted-heading">technical focus.</span>
+          </h2>
+          <p class="heading-description">
+            Representative work based on my experience and resume. The pipeline
+            graphic above is a conceptual overview.
+          </p>
+        </div>
+        <div class="project-list">
+          <article class="project-card project-featured">
+            <div class="project-visual project-pipeline">
+              <div class="mini-label">DATA PIPELINE / 001</div>
+              <div class="mini-flow">
+                <div class="mini-box"><span>▤</span><small>SQL</small></div>
+                <span class="mini-arrow">→</span>
+                <div class="mini-box mini-python">
+                  <span>Py</span><small>FILTER</small>
+                </div>
+                <span class="mini-arrow">→</span>
+                <div class="mini-box mini-s3">
+                  <span>▱</span><small>S3</small>
+                </div>
+              </div>
+              <div class="mini-code">
+                <span>data = extract(query)</span
+                ><span>clean = filter(data)</span
+                ><span>upload_to_s3(clean)</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-label">PYTHON · SQL · AWS</div>
+              <h3>SQL-to-Amazon S3 Data Pipeline</h3>
+              <p>
+                Python workflow that collects data from SQL, applies
+                filtering/processing, and uploads the output to an Amazon S3
+                bucket.
+              </p>
+              <ul>
+                <li>
+                  Connects SQL data with a downstream storage destination.
+                </li>
+                <li>Uses Python to prepare the data before upload.</li>
+                <li>Supports a repeatable data-handling workflow.</li>
+              </ul>
+              <div class="project-tags">
+                <span>Python</span><span>SQL</span><span>Amazon S3</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-sql">
+              <div class="mini-label">DATABASE OPERATIONS / 002</div>
+              <div class="terminal-window">
+                <div class="terminal-head">
+                  <span></span><span></span><span></span
+                  ><small>sql_monitor.log</small>
+                </div>
+                <div class="terminal-lines">
+                  <p><b>></b> Check scheduled job status</p>
+                  <p><b>></b> Investigate LSN mismatch</p>
+                  <p><b>></b> Identify blocking sessions</p>
+                  <p class="terminal-success"><b>✓</b> Diagnose & resolve</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-label">SQL SERVER · TROUBLESHOOTING</div>
+              <h3>SQL Job Monitoring & Troubleshooting</h3>
+              <p>
+                Operational support focused on diagnosing job failures,
+                LSN-related backup/restore sequence mismatches, blocking issues,
+                and delayed or long-running jobs.
+              </p>
+              <ul>
+                <li>Monitor SQL Server Agent jobs and investigate errors.</li>
+                <li>Analyze blocking and job contention.</li>
+                <li>
+                  Improve performance using query/job analysis and optimization.
+                </li>
+              </ul>
+              <div class="project-tags">
+                <span>SQL Server</span><span>SSMS</span><span>SQL Agent</span>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-automation">
+              <div class="mini-label">SCHEDULED EXECUTION / 003</div>
+              <div class="schedule-list">
+                <div>
+                  <span class="schedule-icon">◷</span
+                  ><span
+                    ><b>Scheduled run</b
+                    ><small>Recurring script execution</small></span
+                  ><span class="schedule-check">✓</span>
+                </div>
+                <div>
+                  <span class="schedule-icon">⌘</span
+                  ><span
+                    ><b>Python script</b
+                    ><small>Process data automatically</small></span
+                  ><span class="schedule-check">✓</span>
+                </div>
+                <div>
+                  <span class="schedule-icon">↗</span
+                  ><span
+                    ><b>Jenkins job</b
+                    ><small>Execution status and logs</small></span
+                  ><span class="schedule-check">✓</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-label">PYTHON · JENKINS · GIT</div>
+              <h3>Scheduled Script Automation</h3>
+              <p>
+                Scripts and cron-based jobs configured for scheduled execution,
+                with job scripts managed through Jenkins and source code
+                maintained using Git/GitHub.
+              </p>
+              <ul>
+                <li>Automates recurring script runs.</li>
+                <li>Uses Jenkins to run and monitor scheduled jobs.</li>
+                <li>
+                  Uses GitHub for code management, without claiming CI/CD
+                  pipeline ownership.
+                </li>
+              </ul>
+              <div class="project-tags">
+                <span>Python</span><span>Jenkins</span><span>GitHub</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tkinter Desktop Application Enhancement Project -->
+          <article class="project-card">
+            <div class="project-visual project-automation">
+              <div class="mini-label">PYTHON DESKTOP APPLICATION / 005</div>
+
+              <div class="schedule-list">
+                <div>
+                  <span class="schedule-icon">⌘</span>
+                  <span>
+                    <b>Code Analysis</b>
+                    <small>Review existing Tkinter code</small>
+                  </span>
+                  <span class="schedule-check">✓</span>
+                </div>
+
+                <div>
+                  <span class="schedule-icon">⚙</span>
+                  <span>
+                    <b>Application Logic</b>
+                    <small>Understand existing workflows</small>
+                  </span>
+                  <span class="schedule-check">✓</span>
+                </div>
+
+                <div>
+                  <span class="schedule-icon">↗</span>
+                  <span>
+                    <b>Code Enhancements</b>
+                    <small>Implement required modifications</small>
+                  </span>
+                  <span class="schedule-check">✓</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-label">
+                PYTHON · TKINTER · APPLICATION MAINTENANCE
+              </div>
+
+              <h3>Python Tkinter Application Enhancements</h3>
+
+              <p>
+                Worked on an existing Python Tkinter desktop application at
+                Rapid Data Labs. Analyzed and understood the source code,
+                studied the application workflows and logic, and implemented
+                necessary modifications based on project requirements.
+              </p>
+
+              <ul>
+                <li>
+                  Reviewed and analyzed the existing Python Tkinter codebase.
+                </li>
+                <li>
+                  Understood application workflows, functionality, and existing
+                  program logic.
+                </li>
+                <li>Implemented required code changes and enhancements.</li>
+                <li>Contributed to ongoing application maintenance.</li>
+              </ul>
+
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Tkinter</span>
+                <span>Code Analysis</span>
+                <span>Application Enhancement</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Movie Recommendation Model: Internship Project -->
+          <article class="project-card">
+            <div class="project-visual project-movie movie-model-visual">
+              <div class="movie-model-header">
+                <div class="movie-model-icon">🎬</div>
+                <span class="movie-model-badge">AI / MACHINE LEARNING</span>
+              </div>
+
+              <div class="movie-model-flow">
+                <div class="movie-model-step">
+                  <strong>Movie Data</strong>
+                  <small>Data preparation</small>
+                </div>
+
+                <span class="movie-model-arrow">→</span>
+
+                <div class="movie-model-step">
+                  <strong>Recommendation</strong>
+                  <small>Model training</small>
+                </div>
+              </div>
+
+              <div class="movie-model-caption">
+                Explore data-driven movie recommendations
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-label">AI &amp; DATA SCIENCE INTERNSHIP</div>
+
+              <h3>Movie Recommendation Model</h3>
+
+              <p>
+                Worked on a movie recommendation model during my AI &amp; Data
+                Science internship at ADS Foundation. The project involved
+                preparing movie data and exploring model training approaches to
+                generate relevant movie recommendations.
+              </p>
+
+              <ul>
+                <li>
+                  Prepared and processed movie data for model development.
+                </li>
+                <li>
+                  Explored the model-training workflow for movie
+                  recommendations.
+                </li>
+                <li>
+                  Worked with Python-based data analysis and machine learning
+                  concepts.
+                </li>
+              </ul>
+
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>NumPy</span>
+                <span>Machine Learning</span>
+              </div>
+
+              <div class="project-internship-note">
+                <span>●</span>
+                ADS Foundation · March 2025 – May 2025
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="project-footnote">
+          <span>ⓘ</span> Project descriptions summarize work and technical
+          responsibilities from the resume. Add public repositories or
+          measurable outcomes when you are ready to share them.
+        </p>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <span class="section-index">04 / EXPERIENCE</span>
+            <h2>Where I’ve <span class="muted-heading">contributed.</span></h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">JUL 2025 — PRESENT</div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-title-row">
+                  <div>
+                    <h3>Python SQL Developer</h3>
+                    <p class="company">
+                      Rapid Data Labs <span>·</span> Ahmedabad, Gujarat
+                    </p>
+                  </div>
+                  <span class="current-badge"><i></i> CURRENT</span>
+                </div>
+                <ul>
+                  <li>
+                    Build Python workflows to collect, filter, and process SQL
+                    data before uploading output to Amazon S3.
+                  </li>
+                  <li>
+                    Monitor SQL Server Agent jobs and investigate failures,
+                    LSN-related issues, blocking, and delays.
+                  </li>
+                  <li>
+                    Troubleshoot job issues and contribute to performance
+                    improvements.
+                  </li>
+                  <li>
+                    Use Jenkins for scheduled script execution and Git/GitHub
+                    for code management.
+                  </li>
+                  <li>
+                    Analyzed and understood existing Python Tkinter GUI
+                    application code, reviewed application workflows and logic,
+                    and implemented necessary code modifications and
+                    enhancements based on project requirements.
+                  </li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">MAR 2025 — MAY 2025</div>
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-title-row">
+                  <div>
+                    <h3>AI & Data Science Intern</h3>
+                    <p class="company">
+                      ADS Foundation <span>·</span> Ahmedabad, Gujarat
+                    </p>
+                  </div>
+                </div>
+                <p class="timeline-summary">
+                  Worked in an AI and data science internship environment,
+                  building on programming and analytical foundations.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="education">
+        <div class="section-heading">
+          <span class="section-index">05 / EDUCATION</span>
+          <h2>
+            Learning that <span class="muted-heading">keeps me moving.</span>
+          </h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card">
+            <div class="education-icon">01</div>
+            <div>
+              <span class="education-period">AUG 2023 — 2025</span>
+              <h3>Master of Computer Applications (MCA)</h3>
+              <p>LJ Institute of Engineering and Technology</p>
+              <div class="education-score">8.0 CGPA</div>
+            </div>
+          </article>
+          <article class="education-card">
+            <div class="education-icon">02</div>
+            <div>
+              <span class="education-period">MAR 2019 — 2022</span>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p>Saurashtra University</p>
+              <div class="education-score">72.77%</div>
+            </div>
+          </article>
+        </div>
+        <div class="certifications">
+          <div>
+            <span class="section-index">CERTIFICATIONS</span>
+            <h3>Continued learning</h3>
+          </div>
+          <div class="cert-list">
+            <div>
+              <span class="cert-check">✓</span
+              ><span
+                ><b>Generative AI</b><small>Coursera · July 2024</small></span
+              >
+            </div>
+            <div>
+              <span class="cert-check">✓</span
+              ><span
+                ><b>What Is Data Science?</b
+                ><small>Coursera · May 2024</small></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-inner">
+          <div>
+            <span class="section-index">06 / CONTACT</span>
+            <h2>Have a data challenge?<br /><span>Let’s connect.</span></h2>
+            <p>
+              I’m interested in opportunities involving Python, SQL, data
+              workflows, database support, and job automation.
+            </p>
+          </div>
+          <div class="contact-panel">
+            <div class="contact-row">
+              <span class="contact-icon">@</span>
+              <div>
+                <small>EMAIL</small
+                ><a href="mailto:khsangani3344@gmail.com"
+                  >khsangani3344@gmail.com</a
+                >
+              </div>
+              <button
+                class="copy-button"
+                data-copy="khsangani3344@gmail.com"
+                aria-label="Copy email"
+              >
+                ⧉
+              </button>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">⌕</span>
+              <div>
+                <small>PHONE</small
+                ><a href="tel:+916352441107">+91 63524 41107</a>
+              </div>
+              <button
+                class="copy-button"
+                data-copy="+91 63524 41107"
+                aria-label="Copy phone number"
+              >
+                ⧉
+              </button>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">⌖</span>
+              <div>
+                <small>LOCATION</small><span>Ahmedabad, Gujarat, India</span>
+              </div>
+            </div>
+            <a
+              class="button button-primary contact-cta"
+              href="mailto:khsangani3344@gmail.com?subject=Opportunity%20for%20Krunal%20Sangani"
+              >Email me <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#home"
+          ><span class="brand-mark">KS<span>.</span></span></a
+        >
+        <p>Built with focus, curiosity, and clean code.</p>
+        <span class="footer-year">© <span id="year"></span> KRUNAL SANGANI</span
+        ><a class="back-top" href="#home">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
