@@ -63,34 +63,3 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
     }
   });
 });
-// Email button: open Gmail in browser on desktop, mail app on phones
-const emailBtn = document.querySelector("#emailMeBtn");
-
-if (emailBtn) {
-  emailBtn.addEventListener("click", (event) => {
-    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-    // On phones, mailto: works fine, so leave it alone
-    if (isMobile) return;
-
-    event.preventDefault();
-
-    const to = "khsangani3344@gmail.com";
-    const subject = encodeURIComponent("Opportunity for Krunal Sangani");
-    const gmailUrl =
-      "https://mail.google.com/mail/?view=cm&fs=1&to=" +
-      to +
-      "&su=" +
-      subject;
-
-    const win = window.open(gmailUrl, "_blank", "noopener");
-
-    // If the popup was blocked, copy the email so the visitor can still reach you
-    if (!win) {
-      navigator.clipboard
-        .writeText(to)
-        .then(() => showToast("Email copied: " + to))
-        .catch(() => showToast(to));
-    }
-  });
-}
